@@ -45,6 +45,8 @@ func main() {
 	}
 	time.Sleep(2 * time.Second)
 
+	fmt.Printf("Repo ID: %v\n", *repo.ID)
+	fmt.Printf("Repo NodeID: %s\n", *repo.NodeID)
 	fmt.Printf("Repo Name: %s\n", *repo.Name)
 	fmt.Printf("Repo Description: %s\n", *repo.Description)
 	fmt.Printf("Repo URL: %s\n", *repo.HTMLURL)
