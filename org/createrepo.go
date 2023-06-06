@@ -20,7 +20,7 @@ type Repo struct {
 }
 
 func main() {
-	t := "ghu_UCu3xiwRqg2I1TkdoUd1aCQtmjlYMN2TRAVh"
+	t := "Your user access token goes here"
 	ctx := context.Background()
 	c := github.NewTokenClient(ctx, t)
 
